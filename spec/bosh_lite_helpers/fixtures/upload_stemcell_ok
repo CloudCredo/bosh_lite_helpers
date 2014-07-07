@@ -1,0 +1,37 @@
+
+Verifying stemcell...
+File exists and readable                                     OK
+Verifying tarball...
+Read tarball                                                 OK
+Manifest exists                                              OK
+Stemcell image file                                          OK
+Stemcell properties                                          OK
+
+Stemcell info
+-------------
+Name:    bosh-warden-boshlite-ubuntu-lucid-go_agent
+Version: 60
+
+Checking if stemcell already exists...
+No
+
+Uploading stemcell...
+
+bosh-stemcell: 100% |ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo| 342.5MB  28.0MB/s Time: 00:00:12
+
+Director task 1
+  Started update stemcell
+  Started update stemcell > Extracting stemcell archive. Done (00:00:03)
+  Started update stemcell > Verifying stemcell manifest. Done (00:00:00)
+  Started update stemcell > Checking if this stemcell already exists. Done (00:00:00)
+  Started update stemcell > Uploading stemcell bosh-warden-boshlite-ubuntu-lucid-go_agent/60 to the cloud. Done (00:00:16)
+  Started update stemcell > Save stemcell bosh-warden-boshlite-ubuntu-lucid-go_agent/60 (stemcell-48edc711-1c3a-4469-9b9d-52ead3dc3c3d). Done (00:00:00)
+     Done update stemcell (00:00:19)
+
+Task 1 done
+
+Started		2014-01-01 00:00:00 UTC
+Finished	2014-01-01 00:00:00 UTC
+Duration	00:00:19
+
+Stemcell uploaded and created.

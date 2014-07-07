@@ -1,0 +1,61 @@
+
+Copying packages
+----------------
+postgresql (b83ef68c935c44fd5e16bbd4b7c2b33a1f989583) SKIP
+
+Copying jobs
+------------
+postgresql (2e9e4664d66f68b3ae29cf51b0cb004b8c425f3c) FOUND LOCAL
+
+Building tarball
+----------------
+Generated /tmp/path/release.tgz
+Release size: 806B
+
+Verifying release...
+File exists and readable                                     OK
+Extract tarball                                              OK
+Manifest exists                                              OK
+Release name/version                                         OK
+Read package 'postgresql' (1 of 1)                           OK
+Package dependencies                                         OK
+Checking jobs format                                         OK
+Read job 'postgresql' (1 of 1), version 2e9e4664d66f68b3ae29cf51b0cb004b8c425f3c OK
+Job 'postgresql' checksum                                    OK
+Extract job 'postgresql'                                     OK
+Read job 'postgresql' manifest                               OK
+Job 'postgresql' needs 'postgresql' package                  OK
+Monit file for 'postgresql'                                  OK
+
+Release info
+------------
+Name:    postgresql
+Version: 0+dev.1
+
+Packages
+  - postgresql (b83ef68c935c44fd5e16bbd4b7c2b33a1f989583)
+
+Jobs
+  - postgresql (2e9e4664d66f68b3ae29cf51b0cb004b8c425f3c)
+
+Uploading release (will be rebased)
+release-refor: 100% |ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo|    800B  57.0KB/s Time: 00:00:00
+
+Director task 2
+  Started extracting release > Extracting release. Done (00:00:00)
+
+  Started verifying manifest > Verifying manifest. Done (00:00:00)
+
+  Started resolving package dependencies > Resolving package dependencies. Done (00:00:00)
+
+  Started processing 1 existing package > Verifying checksums. Done (00:00:00)
+
+  Started processing 1 existing job > Verifying checksums. Done (00:00:00)
+
+  Started release has been created > postgresql/0.2-dev. Done (00:00:00)
+
+Error 100: Rebase is attempted without any job or package changes
+
+Task 2 error
+
+For a more detailed error report, run: bosh task 2 --debug

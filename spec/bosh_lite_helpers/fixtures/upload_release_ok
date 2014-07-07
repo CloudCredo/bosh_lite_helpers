@@ -1,0 +1,64 @@
+
+Copying packages
+----------------
+postgresql (b83ef68c935c44fd5e16bbd4b7c2b33a1f989583) FOUND LOCAL
+
+Copying jobs
+------------
+postgresql (2e9e4664d66f68b3ae29cf51b0cb004b8c425f3c) FOUND LOCAL
+
+Building tarball
+----------------
+Generated /tmp/path/release.tgz
+Release size: 15.4M
+
+Verifying release...
+File exists and readable                                     OK
+Extract tarball                                              OK
+Manifest exists                                              OK
+Release name/version                                         OK
+Read package 'postgresql' (1 of 1)                           OK
+Package 'postgresql' checksum                                OK
+Package dependencies                                         OK
+Checking jobs format                                         OK
+Read job 'postgresql' (1 of 1), version 2e9e4664d66f68b3ae29cf51b0cb004b8c425f3c OK
+Job 'postgresql' checksum                                    OK
+Extract job 'postgresql'                                     OK
+Read job 'postgresql' manifest                               OK
+Job 'postgresql' needs 'postgresql' package                  OK
+Monit file for 'postgresql'                                  OK
+
+Release info
+------------
+Name:    postgresql
+Version: 0+dev.1
+
+Packages
+  - postgresql (b83ef68c935c44fd5e16bbd4b7c2b33a1f989583)
+
+Jobs
+  - postgresql (2e9e4664d66f68b3ae29cf51b0cb004b8c425f3c)
+
+Uploading release (will be rebased)
+release-refor: 100% |ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo|  15.4MB  19.3MB/s Time: 00:00:00
+
+Director task 1
+  Started extracting release > Extracting release. Done (00:00:00)
+
+  Started verifying manifest > Verifying manifest. Done (00:00:00)
+
+  Started resolving package dependencies > Resolving package dependencies. Done (00:00:00)
+
+  Started creating new packages > postgresql/b83ef68c935c44fd5e16bbd4b7c2b33a1f989583. Done (00:00:00)
+
+  Started creating new jobs > postgresql/2e9e4664d66f68b3ae29cf51b0cb004b8c425f3c. Done (00:00:00)
+
+  Started release has been created > postgresql/0.1-dev. Done (00:00:00)
+
+Task 1 done
+
+Started		2014-01-01 00:00:00 UTC
+Finished	2014-01-01 00:00:00 UTC
+Duration	00:00:00
+
+Release rebased

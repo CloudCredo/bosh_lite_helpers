@@ -1,0 +1,57 @@
+Syncing blobs...
+Total: 0, 0B
+
+You have some blobs that need to be uploaded:
+new	postgresql/postgresql-8.4_8.4.3.orig.tar.gz	16.1M
+
+When ready please run `bosh upload blobs'
+Proceeding with dirty blobs as '--force' is given
+
+Building DEV release
+--------------------
+
+Building packages
+-----------------
+Building postgresql...
+  Final version:   NOT FOUND
+  Dev version:     FOUND LOCAL
+
+
+Resolving dependencies
+----------------------
+Dependencies resolved, correct build order is:
+- postgresql
+
+
+Building jobs
+-------------
+Building postgresql...
+  Final version:   NOT FOUND
+  Dev version:     FOUND LOCAL
+
+
+Building release
+----------------
+
+Generating manifest...
+----------------------
+Writing manifest...
+
+Release summary
+---------------
+Packages
++------------+------------------------------------------+-------+
+| Name       | Version                                  | Notes |
++------------+------------------------------------------+-------+
+| postgresql | b83ef68c935c44fd5e16bbd4b7c2b33a1f989583 |       |
++------------+------------------------------------------+-------+
+
+Jobs
++------------+------------------------------------------+-------+
+| Name       | Version                                  | Notes |
++------------+------------------------------------------+-------+
+| postgresql | 2e9e4664d66f68b3ae29cf51b0cb004b8c425f3c |       |
++------------+------------------------------------------+-------+
+
+Release version: 0+dev.1
+Release manifest: /path/to/postgresql-release/dev_releases/postgresql-0+dev.1.yml
